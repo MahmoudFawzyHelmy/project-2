@@ -1,0 +1,137 @@
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* start nav */
+
+@media (min-width: 787px) {
+  .nav .links .toggle {
+    display: none;
+  }
+}
+@media (max-width: 786px) {
+  .nav .links ul {
+    display: none;
+  }
+  .nav .links .toggle:hover + ul li {
+    margin-bottom: 20px;
+  }
+  .nav .links li a::before,
+  .nav .links li a.active::after {
+    display: none;
+  }
+}
+/* end nav */
+
+/* start home */
+
+@media (max-width: 989px) {
+  .home {
+    height: 100%;
+  }
+  .home .home-info {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .home .img {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  .home .img img {
+    width: 50%;
+  }
+  .home .home-info h1 {
+    font-size: 30px;
+  }
+  .home .home-info p {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .home .home-info a {
+    padding: 10px 7px;
+  }
+}
+
+/* end home */
+
+/* start box icon */
+@media (min-width: 989px) {
+  .home .box-icon .box {
+    width: calc((100% - 100px) / 4);
+    margin-left: 20px;
+  }
+}
+@media (max-width: 987px) {
+  .home .box-icon .box {
+    width: calc((100% - 100px) / 3);
+    margin-left: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .home .box-icon .box {
+    width: calc((100% - 100px) / 2);
+    margin-left: 20px;
+  }
+}
+@media (max-width: 587px) {
+  .home .box-icon .box {
+    width: 100%;
+    margin: 20px auto;
+  }
+}
+
+/* end box icon */
+
+/* start about */
+@media (max-width: 992px) {
+  .about {
+    margin: 20px auto;
+    padding: 50px;
+  }
+  .about .about-content .box {
+    width: 100%;
+    margin: 30px auto;
+  }
+}
+@media (max-width: 787px) {
+  .about .about-content .box img {
+    width: 80%;
+    margin: 15px auto;
+  }
+}
+
+/* end about */
+
+/* start pricing section */
+@media (max-width: 992px) {
+  .pricing .pricing-content .box {
+    width: 100%;
+    height: auto;
+  }
+  .pricing .pricing-content .center {
+    position: static;
+    margin: 20px 0;
+  }
+}
+
+/* end pricing section */
